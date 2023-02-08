@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    background-color: #ebebeb;
+}
+a {
+    color: #000;
+}
+
+header{
+    background-color:#EAC926;
+    width: 100%;
+    padding: 10px;
+    /* display: flex; */
+    flex-direction: column;
+
+}
+.main-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.logo-busqueda{
+    
+    display: flex;
+}
+.logo-conteiner{
+    width: 50%;
+}
+.logo {
+    padding: 10px;
+}
+.search-button-conteiner{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.barra-de-busqueda{
+    display: flex;
+    height: 25px;
+    width: 90%;
+}
+input{                /*barra de busqueda*/
+    width: 95%;
+    border: none;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+button{
+    width: 15%;
+    padding: 1px;
+    border: none;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+}
+.car-conteiner{
+    padding: 15px;
+}
+.compracuota {
+    font-weight: 400;    /*grosor de letra*/             
+    text-align: center;
+}
+.compracuota i{
+    margin-right: 10px;
+}
+.burguer-conteiner{               /*CONTENEDOR HAMBURGUESA*/
+    display: flex;
+    justify-content: center;
+}
+.burger-menu{                            
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    color: white; 
+    background-color: blue;
+}
+
+.main-navbar{             /* MENU NAVEGACION */
+    display: none;
+}
+
+.left-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.left-navbar a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 15px;
+
+}
+
+.right-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.right-navbar a {
+    text-decoration: none;
+    display: inline-block;
+    color: #222222;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.banner {
+    width: 100%;
+    margin: auto;
+}
+
+h3.titular {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.precio p{
+    font-size: 18px;
+    line-height: 50%;
+    margin: 10px 0;  
+    
+}
+.precio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.descuento {
+    font-size: 18px;
+    color: rgb(3, 145, 3);
+    line-height: 50%;
+    margin: 10px;
+}
+
+.descripcion   {
+    font-size: 16px;
+    line-height: 50%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+
+
+
+main {
+    text-align: center;
+    width: 90%;
+    margin: 10px;
+}
+.fa-truck-fast{              /*camion envio*/
+    color: rgb(3, 145, 3);
+    border: solid;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 10px 0;
+    line-height: 100%;
+    
+}
+    
+.envio{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+.cafetera {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.mac {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.galaxys10 {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.tvsamsung {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.info{
+    background-color: white;
+    padding: 5px;
+    border-top: solid #ebebeb 1px;
+   
+}
+
+h4{
+    display: none;
+}
+
+
+footer i.fa-solid{
+    color: blue;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.juntarprecio{
+    display: flex;
+    margin: 0 10px;
+
+}
+
+
+
+
