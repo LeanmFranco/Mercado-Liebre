@@ -1,86 +1,220 @@
-/* @media (min-width: 361px) {
+@media (min-width: 361px) {}
+
+
+
+@media (min-width: 768px) {
+
+    /* TABLET */
     div.articulo {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        ;
     }
-    .logo, .barra-de-busqueda{
-        flex-grow: 0.5;
-    }
-} */
 
-
-@media (min-width: 768px) {              /* TABLET */
-    
-    .burguer-conteiner{
+    .burguer-conteiner {
         display: none;
     }
-    h4{
+
+    h4 {
         display: block;
     }
-    ul{
+
+    ul {
         display: block;
     }
-    i.fa-bars{
+
+    i.fa-bars {
         display: none;
     }
 
     .compracuota {
         max-width: 300px;
         text-align: right;
-        font-size: 12px;
+        font-size: 14px;
         align-items: flex-start;
     }
-    .main-navbar{
+
+    .main-navbar {
         display: flex;
         justify-content: space-between;
     }
-    .main-navbar ul{
+
+    .main-navbar ul {
         display: flex;
-    }
-    .main-navbar li{
-        margin: 0 5px;
-    }
-    .barra-de-busqueda {
-        max-height: 30px;
-    }
-    .ultima-vista, .articulo {
-        display: flex;
-    
-    }
-    .articulo{
-        flex-direction: column;
-        margin: 0 5px;
-        max-width: 250px;
+        gap: 10px;
     }
 
-    .descripcion{
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+    .barra-de-busqueda {
+        max-height: 50px;
+    }
+
+    .ultima-vista,
+    .articulo {
+        display: flex;
+
+    }
+
+    .articulo {
+        flex-direction: column;
+        margin: 0 10px;
+        max-width: 230px;
+    }
+
+    .descripcion {
         font-size: 15px;
         margin: 5px 0;
     }
-    p.precio{
-        font-size: 15px;
+
+    .precio {
+        font-size: 14px;
     }
-    .descuento p{
-        font-size: 15px;
-        
+
+    .descuento p {
+        font-size: 14px;
+
     }
-    .ultima-vista{
+
+    .ultima-vista {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 60px;
+        justify-content: space-evenly;
+        gap: 10px;
     }
-    .ofertas{
+
+    .ofertas {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 60px;
+        justify-content: space-evenly;
+        gap: 10px;
     }
-    .main-heade{
+
+    .main-header {
         flex-direction: row;
         justify-content: space-between;
     }
-    .logo-busqueda{
+
+    .logo-busqueda {
         flex-grow: 1;
+
+    }
+
+    .login-conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .form-login {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nya {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .nombre{
+        height: 40px;
+        width: 400px;
+
+    }
+
+    .pass {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .password{
+        height: 40px;
+        width: 400px;
+
+    }
+
+    .ingresar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        margin: 20px;
+        background-color: blue;
+        width: 400px;
+        border-radius: 5px 5px 5px 5px ;
+    }
+    
+
+}
+
+
+@media (min-width: 1024px) {
+    .main-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .articulo {
+        display: flex;
+        flex-direction: column;
+        margin: 0 5px;
+        max-width: 212px;
+    }
+
+    .ultima-vista {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
+    .ofertas {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
+    .compracuota {
+
+        max-width: 310px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .barra-de-busqueda i{
+        width: 95%;
+        border: none;
+        background-color: white;
+        border-radius: 5px 0 0 5px;
+        height: 50px;
+    }
+    .busqueda{
+        height: 50px;
+    }
+    i.fa-search{
+        height: 50px;
+    }
+    #01 a{
+        height: 40px;
+        text-decoration: none;
+        list-style: none;
+        padding: 0;
+        color: blue;
+        background: blue;
+        font-size: 22px;
+        font-weight: 400;
 
     }
 }

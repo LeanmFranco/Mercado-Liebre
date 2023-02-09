@@ -56,7 +56,7 @@ input{                /*barra de busqueda*/
     background-color: white;
     border-radius: 5px 0 0 5px;
 }
-button{
+.fa-search{
     width: 15%;
     padding: 1px;
     border: none;
@@ -64,11 +64,14 @@ button{
     border-radius: 0 5px 5px 0;
 }
 .car-conteiner{
+    display: flex;
+    align-items: center;
     padding: 15px;
 }
 .compracuota {
     font-weight: 400;    /*grosor de letra*/             
     text-align: center;
+    font-size: 12px;
 }
 .compracuota i{
     margin-right: 10px;
@@ -128,8 +131,9 @@ button{
 }
 
 h3.titular {
-    font-size: 30px;
-    margin: 30px;
+    font-size: 25px;
+    margin: 25px;
+    color: gray;
 }
 
 .precio p{
@@ -141,7 +145,7 @@ h3.titular {
 .precio{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 
@@ -157,15 +161,17 @@ h3.titular {
     line-height: 50%;
     margin: 10px 0;
     text-align: left;
+    color: gray;
+    font-weight: 400;
 }
 
 
 
 
-main {
+.main-conteiner {
     text-align: center;
     width: 90%;
-    margin: 10px;
+    margin: auto;  /*10px */
 }
 .fa-truck-fast{              /*camion envio*/
     color: rgb(3, 145, 3);
@@ -186,27 +192,27 @@ main {
 }
 .cafetera {
     width: 100%;
-    padding-top: 10px;
+    
 }
 
 .mac {
     width: 100%;
-    padding-top: 10px;
+    
 }
 
 .galaxys10 {
     width: 100%;
-    padding-top: 10px;
+    
 }
 
 .tvsamsung {
     width: 100%;
-    padding-top: 10px;
+    
 }
 
 .info{
     background-color: white;
-    padding: 5px;
+    padding: 15px;
     border-top: solid #ebebeb 1px;
    
 }
