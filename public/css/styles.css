@@ -18,7 +18,6 @@ header{
     background-color:#EAC926;
     width: 100%;
     padding: 10px;
-    /* display: flex; */
     flex-direction: column;
 
 }
@@ -37,7 +36,7 @@ header{
     width: 50%;
 }
 .logo {
-    padding: 10px;
+    padding: 20px;
 }
 .search-button-conteiner{
     display: flex;
@@ -47,8 +46,14 @@ header{
 }
 .barra-de-busqueda{
     display: flex;
-    height: 25px;
-    width: 90%;
+    width: 100%;
+}
+.fa-search{
+    width: 100%;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 input{                /*barra de busqueda*/
     width: 95%;
@@ -56,7 +61,7 @@ input{                /*barra de busqueda*/
     background-color: white;
     border-radius: 5px 0 0 5px;
 }
-.fa-search{
+.lupa{
     width: 15%;
     padding: 1px;
     border: none;
@@ -65,13 +70,14 @@ input{                /*barra de busqueda*/
 }
 .car-conteiner{
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 15px;
 }
 .compracuota {
     font-weight: 400;    /*grosor de letra*/             
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
 }
 .compracuota i{
     margin-right: 10px;
@@ -189,7 +195,7 @@ h3.titular {
     position: relative;
     bottom: 30px;
     right: 20px;
-}
+} 
 .cafetera {
     width: 100%;
     
