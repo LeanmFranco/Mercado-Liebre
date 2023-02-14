@@ -1,4 +1,4 @@
-@media (min-width: 361px) {
+@media (min-width: 320px) {
     .lupa{
         width: 15%;
         padding: 1px;
@@ -18,6 +18,37 @@
         justify-content: center;
         align-items: center;
     }
+    .ultima-vista, .ofertas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .articulo, .descripcion {
+        flex-direction: column;
+        margin: 0 10px;
+        max-width: 230px;
+        transition: 450ms;
+    }
+    .articulo:hover{    
+        box-shadow:0 0 30px #39b54a;
+    }
+    .articulo .descripcion{
+        transition: all 450ms;
+
+    }
+    .articulo:hover .descripcion{
+        display: block;
+    }
+    .articulo, .enviar:hover .fa-truck-fast {
+        transform: rotateY('90deg');
+    }
+
+
+
+
+  
     /* LOGIN */
     .login-conteiner{
         display: flex;
@@ -70,26 +101,260 @@
     .boton-ingresar{
         width: 100%;
         height: 30px;
-        background-color: #0022aa;
+        background-color: rgb(6, 6, 248);
         border-radius: 5px;
         border: none;
         transition: all 400ms;
         
+    }
+    .boton-ingresar:hover{
+        background-color: #0022aa;
     }
     .boton-ingresar a{
         text-decoration: none;
         color: white;
         font-size: 15px;
     }
+    /* FORMULARIO DE REGISTRO */
+    .form-register{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+        margin: 30px;    
+    }
+    .nom-ape{
+        font-size: 15px;
+        height: 30px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .user-conteiner{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .usuario{
+        font-size: 15px;
+        height: 30px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .mail-conteiner{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .e-mail{
+        font-size: 15px;
+        height: 30px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .nacimiento{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .fecha{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        height: 30px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+    }
+    .calle{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .domicilio{
+        font-size: 15px;
+        height: 30px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .perfil{
+        display: flex;
+        flex-direction: column;
+    }
+    .perfil-usuario{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .img-perfil{
+        display:flex;
+        margin: 30px;
+        font-size: 15px;
+        height: 24px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .comprador{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+    }
+
+    .vendedor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+    }
+    .intereses-conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+    .interes{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 30px;
+        gap: 30px;
+    }
+
+    .electro{
+        display: flex;
+        gap: 15px
+
+    }
+    .moda{
+        display: flex;
+        gap: 15px
+
+    }
+    .hogar{
+        display: flex;
+        gap: 15px
+
+    }
+    .jugueteria{
+        display: flex;
+        gap: 15px
+
+    }
+    .vidasana{
+        display: flex;
+        gap: 15px
+
+    }
+    .img-conteiner{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .pic{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .clave{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 40px;
+    }
+    .eleg-cont{
+        font-size: 15px;
+        height: 30px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+    }
+    .conf-pass{
+        font-size: 15px;
+        height: 30px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+    }
+    .boton-conteiner{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        margin: 40px;
+    }
+    .boton-enviar{
+        background-color: blue;
+        width: 100px;
+        height: 35px;
+        border-radius: 10px;
+        transition: all 400ms;
+    }
+    .boton-enviar a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+
+
+    .boton-borrar{
+        background-color: blue;
+        width: 100px;
+        height: 35px;
+        color: white;
+        font-size: 15px;
+        border-radius: 10px;
+        transition: all 400ms;
+    }
+                   /* FOOTER */
+    .card-conteiner i{
+        transition: all 450ms;
+    }
+    .card-conteiner:hover i{
+        color: #1896df;
+        transform:scale(2)
+    }
+
+    .envio-conteiner i{
+        transition: all 450ms;
+    }
+    .envio-conteiner:hover i{
+        color: #1896df;
+        transform:scale(2)
+    }
+    .seguridad-conteiner i{
+        transition: all 450ms;
+    }
+    .seguridad-conteiner:hover i{
+        color: #1896df;
+        transform:scale(2)
+    }
+
+
+
+
 
 }
+
+
 
 
 
 @media (min-width: 768px) {
 
     /* TABLET */
-    div.articulo {
+    .articulo {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         ;
     }
@@ -150,12 +415,31 @@
         flex-direction: column;
         margin: 0 10px;
         max-width: 230px;
+        transition: 450ms;
+    }
+    .articulo:hover{    
+        box-shadow:0 0 30px #39b54a;
+
+
     }
 
     .descripcion {
         font-size: 15px;
         margin: 5px 0;
+        opacity: 0;
+        transition: 450ms;
     }
+    .articulo:hover .descripcion{
+        opacity: 1;
+
+    }
+    .articulo i{
+        transition: 450ms;
+    }
+    .articulo:hover i{
+        transform: rotate(-90deg);
+    }
+   
 
     .precio {
         font-size: 14px;
@@ -166,15 +450,9 @@
 
     }
 
-    .ultima-vista {
+    .ultima-vista, .ofertas {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 10px;
-    }
-
-    .ofertas {
-        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 10px;
@@ -200,14 +478,14 @@
     /* BARRA DE BUSQUEDA */
     .lupa{
         width: 15%;
-        height: 50px;
+        height: 40px;
         padding: 1px;
         border: none;
         background-color: white;
         border-radius: 0 5px 5px 0;
     }
     .busqueda{
-        height: 50px;
+        height: 40px;
         font-size: 15px;
     }
         /* LOGIN */
@@ -238,6 +516,7 @@
 
     }
     .nombre{
+        border: none;
         height: 40px;
         width: 400px;
         font-size: 15px;
@@ -250,6 +529,7 @@
         gap: 20px;
     }
     .password{
+        border: none;
         height: 40px;
         width: 400px;
         font-size: 15px;
@@ -323,7 +603,7 @@
     
     }
     .busqueda{
-        height: 50px;
+        height: 40px;
     }
     .lupa {
         width: 15%;
@@ -334,7 +614,7 @@
     }
     .fa-search{
         width: 100%;
-        height: 49px;
+        height: 39px;
         display: flex;
         justify-content: center;
         align-items: center;

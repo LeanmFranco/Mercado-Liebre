@@ -15,6 +15,10 @@ app.get('/login.html', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/login.html')); //direccion absoluta
 });
 
+app.get('/register.html', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/register.html')); //direccion absoluta
+});
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`server started on http://localhost:${port}`);
