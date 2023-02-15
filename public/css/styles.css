@@ -191,6 +191,9 @@ h3.titular {
     line-height: 100%;
 
 }
+.articulo, .enviar:hover .fa-truck-fast {
+    transform: rotateY('90deg');
+}
     
 .envio{
     display: flex;

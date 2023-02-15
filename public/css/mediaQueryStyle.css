@@ -41,9 +41,13 @@
     .articulo:hover .descripcion{
         display: block;
     }
-    .articulo, .enviar:hover .fa-truck-fast {
-        transform: rotateY('90deg');
+    .articulo i{
+        transition: 450ms;
     }
+    .articulo:hover i{
+        transform: rotate(-90deg);
+    }
+   
 
 
 
