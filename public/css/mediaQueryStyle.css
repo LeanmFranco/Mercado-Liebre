@@ -112,7 +112,8 @@
         
     }
     .boton-ingresar:hover{
-        background-color: #0022aa;
+        background-color:#39b54a;
+        color: black;
     }
     .boton-ingresar a{
         text-decoration: none;
@@ -302,13 +303,14 @@
         background-color: blue;
         width: 100px;
         height: 35px;
+        color: white;
+        font-size: 15px;
         border-radius: 10px;
         transition: all 400ms;
     }
-    .boton-enviar a{
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
+    .boton-enviar:hover {
+        background-color: #39b54a;
+        color: black;
     }
 
 
@@ -320,6 +322,10 @@
         font-size: 15px;
         border-radius: 10px;
         transition: all 400ms;
+    }
+    .boton-borrar:hover {
+        background-color: #39b54a;
+        color: black;
     }
                    /* FOOTER */
     .card-conteiner i{
